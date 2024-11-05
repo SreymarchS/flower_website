@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application</title>
+</head>
+<body>
+    <h1>Account Application</h1>
+    <form>
+        <p>
+            <label for="name">Please enter your name:</label> 
+            <input type="text" id="name" name="user_name" size="35">
+        </p>
+        <p>
+            <label for="pw1">Enter your password:</label>
+            <input type="password" id="pw1" name="password1" size="35">
+        </p>
+        <p>
+            <label for="pw2">Enter your password again to verify:</label>  
+            <input type="password" id="pw2" name="password2" size="35">
+        </p>
+        <p>
+            Please select the accounts you currently have:<br>
+            <input type="checkbox" id="c_account" name="account1" value="101">
+     	    <label for="c_account">Cheque</label><br>
+	        <input type="checkbox" id="s_account" name="accounts2" value="102">
+            <label for="s_account">Savings</label>
+	    </p>
+	    <p>
+	     Are you employed?<br />
+	      <input type="radio" id="yes" name="employed" value="yes">
+          <label for="yes">Yes</label><br>
+	      <input type="radio" id="no" name="employed" value="no">
+          <label for="no">No</label>
+	    </p>
+	    <p>
+            <label for="branch">Choose the branch office closest to where you live:</label><br>
+            <select id="branch" name="branch">
+	      		<option value="ber">Berwick</option>
+	     		<option value="dan">Dandenong</option>
+	     		<option value="fra">Frankston</option>
+	      	</select>
+	    </p>
+	    <p>
+	      	<input type="submit" value="Submit Application">
+	     	<input type="reset" value="Reset Form">
+	    </p>
+	</form>
+</body>
+</html>
+
+
